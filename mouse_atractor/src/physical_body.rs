@@ -12,8 +12,8 @@ impl PhysicalBody {
             body: Rect {
                 x: location.x,
                 y: location.y,
-                w: 150.0,
-                h: 150.0,
+                w: 50.0,
+                h: 50.0,
             },
             color: color,
         }
@@ -24,6 +24,6 @@ impl PhysicalBody {
         self.speed+=Vec2::new((mouse_p.0-curr_loc.0)/distance,(mouse_p.1-curr_loc.1)/distance);
         let frame_time = get_frame_time();
         self.body.x+=self.speed.x*frame_time;
-        self.body.y+=self.speed.y*frame_time;
+        self.body.y+=(self.speed.y+0.1)*frame_time;
     }
 }
