@@ -1,0 +1,16 @@
+e:\GitHub\macroquad_game\mouse_atractor\target\debug\deps\png-003a90b4c8103c05.rmeta: C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\lib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\chunk.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\common.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\mod.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\stream.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\zlib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\encoder.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\filter.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\srgb.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\text_metadata.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\traits.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\utils.rs
+
+e:\GitHub\macroquad_game\mouse_atractor\target\debug\deps\png-003a90b4c8103c05.d: C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\lib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\chunk.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\common.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\mod.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\stream.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\zlib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\encoder.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\filter.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\srgb.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\text_metadata.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\traits.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\utils.rs
+
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\lib.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\chunk.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\common.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\mod.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\stream.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\decoder\zlib.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\encoder.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\filter.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\srgb.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\text_metadata.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\traits.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\png-0.17.7\src\utils.rs:

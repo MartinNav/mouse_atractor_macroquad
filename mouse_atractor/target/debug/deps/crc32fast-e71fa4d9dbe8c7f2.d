@@ -1,0 +1,12 @@
+E:\GitHub\macroquad_game\mouse_atractor\target\debug\deps\crc32fast-e71fa4d9dbe8c7f2.rmeta: C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\lib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\baseline.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\combine.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\mod.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\table.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\pclmulqdq.rs
+
+E:\GitHub\macroquad_game\mouse_atractor\target\debug\deps\libcrc32fast-e71fa4d9dbe8c7f2.rlib: C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\lib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\baseline.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\combine.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\mod.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\table.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\pclmulqdq.rs
+
+E:\GitHub\macroquad_game\mouse_atractor\target\debug\deps\crc32fast-e71fa4d9dbe8c7f2.d: C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\lib.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\baseline.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\combine.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\mod.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\table.rs C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\pclmulqdq.rs
+
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\lib.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\baseline.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\combine.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\mod.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\table.rs:
+C:\Users\mn\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.3.2\src\specialized\pclmulqdq.rs:
