@@ -10,16 +10,18 @@ async fn main() {
 
     loop {
         clear_background(BLACK);
+        let mouse_location = mouse_position();
         phys_bod
-            .iter()
+            .iter_mut()
             .map(|cube| {
+                cube.update(mouse_location);
                 draw_rectangle(
                     cube.body.x,
                     cube.body.y,
                     cube.body.w,
                     cube.body.h,
                     cube.color,
-                )
+                );
             })
             .collect::<Vec<_>>();
         next_frame().await
