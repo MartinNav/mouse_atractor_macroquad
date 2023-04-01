@@ -19,7 +19,7 @@ async fn main() {
             },
         ));
     }
-
+    //Main game loop
     loop {
         clear_background(BLACK);
         let mouse_location = mouse_position();
