@@ -23,10 +23,21 @@ async fn main() {
     loop {
         clear_background(BLACK);
         let mouse_location = mouse_position();
+
+
+            if is_mouse_button_down(MouseButton::Left){
+                phys_bod
+                .iter_mut()
+                .map(|cube| {
+                    cube.interact(mouse_location);
+                })
+                .collect::<Vec<_>>();
+            }
+
         phys_bod
             .iter_mut()
             .map(|cube| {
-                cube.update(mouse_location);
+                cube.update();
                 draw_rectangle(
                     cube.body.x,
                     cube.body.y,
@@ -36,6 +47,7 @@ async fn main() {
                 );
             })
             .collect::<Vec<_>>();
+
         next_frame().await
     }
 }

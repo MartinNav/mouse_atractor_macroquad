@@ -22,7 +22,7 @@ impl PhysicalBody {
             color: color,
         }
     }
-    pub fn update(&mut self, mouse_p: (f32, f32)) {
+    pub fn interact(&mut self, mouse_p: (f32, f32)) {
         let curr_loc = (self.body.x, self.body.y);
         let distance = Vec2::distance(
             Vec2 {
@@ -38,6 +38,9 @@ impl PhysicalBody {
             (mouse_p.0 - curr_loc.0) / distance,
             (mouse_p.1 - curr_loc.1) / distance,
         );
+
+    }
+    pub fn update(&mut self){
         let frame_time = get_frame_time();
         self.body.x += self.speed.x * frame_time;
         self.body.y += (self.speed.y + 0.1) * frame_time;
