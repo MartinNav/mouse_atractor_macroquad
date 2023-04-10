@@ -3,10 +3,20 @@ use macroquad::{prelude::*, rand::rand};
 
 #[macroquad::main("Mouse Atractor")]
 async fn main() {
-    let mut phys_bod: Vec<physical_body::PhysicalBody> = Vec::with_capacity(16);
+    let mut phys_bod: [physical_body::PhysicalBody;16] = [physical_body::PhysicalBody::new_on_loc(
+            Vec2::new(
+                rand::gen_range(50.0, screen_width() - 50.0),
+                rand::gen_range(50.0, screen_height() - 50.0),
+            ),
+            Color {
+                r: rand::gen_range(0.5, 1.0),
+                g: rand::gen_range(0.5, 1.0),
+                b: rand::gen_range(0.5, 1.0),
+                a: 1.0,
+            },);16];
 
-    for _ in 0..16 {
-        phys_bod.push(physical_body::PhysicalBody::new_on_loc(
+    for i in 0..16 {
+        phys_bod[i]=physical_body::PhysicalBody::new_on_loc(
             Vec2::new(
                 rand::gen_range(50.0, screen_width() - 50.0),
                 rand::gen_range(50.0, screen_height() - 50.0),
@@ -17,7 +27,7 @@ async fn main() {
                 b: rand::gen_range(0.5, 1.0),
                 a: 1.0,
             },
-        ));
+        );
     }
     //Main game loop
     loop {
@@ -31,7 +41,7 @@ async fn main() {
                 .map(|cube| {
                     cube.interact(mouse_location);
                 })
-                .collect::<Vec<_>>();
+                .for_each(drop);
             }
 
         phys_bod
@@ -46,7 +56,7 @@ async fn main() {
                     cube.color,
                 );
             })
-            .collect::<Vec<_>>();
+            .for_each(drop);
 
         next_frame().await
     }

@@ -3,7 +3,7 @@ use macroquad::{
     telemetry::frame,
     time::get_frame_time,
 };
-
+#[derive(Copy,Clone)]
 pub struct PhysicalBody {
     speed: Vec2,
     pub body: Rect,
@@ -12,6 +12,7 @@ pub struct PhysicalBody {
 impl PhysicalBody {
     ///# new_on_loc
     /// This function will create new instance of PB on specified `location` with specified `color`.
+    #[inline(always)]
     pub fn new_on_loc(location: Vec2, color: Color) -> Self {
         PhysicalBody {
             speed: Vec2 { x: 0.0, y: 0.0 },
