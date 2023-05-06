@@ -1,13 +1,13 @@
 mod physical_body;
-use macroquad::{prelude::*, rand::rand};
+use macroquad::prelude::*;
 use rayon::iter::{IntoParallelRefMutIterator,ParallelIterator};
 
 #[macroquad::main("Mouse Atractor")]
 async fn main() {
     //To change number of rectangles/particles change this value
-    const rect_count: usize = 256;
+    const RECT_COUNT: usize = 256;
 
-    let mut phys_bod: [physical_body::PhysicalBody;rect_count] = [physical_body::PhysicalBody::new_on_loc(
+    let mut phys_bod: [physical_body::PhysicalBody;RECT_COUNT] = [physical_body::PhysicalBody::new_on_loc(
             Vec2::new(
                 0.0,
                 0.0,
@@ -17,9 +17,9 @@ async fn main() {
                 g: 0.0,
                 b: 0.0,
                 a: 1.0,
-            },);rect_count];
+            },);RECT_COUNT];
 
-    for i in 0..rect_count {
+    for i in 0..RECT_COUNT {
         phys_bod[i]=physical_body::PhysicalBody::new_on_loc(
             Vec2::new(
                 rand::gen_range(50.0, screen_width() - 50.0),

@@ -1,6 +1,5 @@
 use macroquad::{
     prelude::{Color, Rect, Vec2},
-    telemetry::frame,
     time::get_frame_time,
 };
 #[derive(Copy,Clone)]
