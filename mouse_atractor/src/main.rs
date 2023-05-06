@@ -9,13 +9,13 @@ async fn main() {
 
     let mut phys_bod: [physical_body::PhysicalBody;rect_count] = [physical_body::PhysicalBody::new_on_loc(
             Vec2::new(
-                rand::gen_range(50.0, screen_width() - 50.0),
-                rand::gen_range(50.0, screen_height() - 50.0),
+                0.0,
+                0.0,
             ),
             Color {
-                r: rand::gen_range(0.5, 1.0),
-                g: rand::gen_range(0.5, 1.0),
-                b: rand::gen_range(0.5, 1.0),
+                r: 0.0,
+                g: 0.0,
+                b: 0.0,
                 a: 1.0,
             },);rect_count];
 
