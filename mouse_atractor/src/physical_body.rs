@@ -19,8 +19,8 @@ impl PhysicalBody {
             body: Rect {
                 x: location.x,
                 y: location.y,
-                w: 50.0,
-                h: 50.0,
+                w: 10.0,
+                h: 10.0,
             },
             color: color,
         }
