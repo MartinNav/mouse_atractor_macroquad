@@ -2,7 +2,7 @@ use macroquad::{
     prelude::{Color, Rect, Vec2},
     time::get_frame_time,
 };
-#[derive(Copy,Clone)]
+#[derive(Copy, Clone)]
 pub struct PhysicalBody {
     speed: Vec2,
     pub body: Rect,
@@ -43,12 +43,11 @@ impl PhysicalBody {
             (mouse_p.0 - curr_loc.0) / distance,
             (mouse_p.1 - curr_loc.1) / distance,
         );
-
     }
     ///# update
     /// Update function will apply speed and direction of PB on the PB to change its position.
     /// *Shold be called before each frame is rendered*
-    pub fn update(&mut self){
+    pub fn update(&mut self) {
         let frame_time = get_frame_time();
         self.body.x += self.speed.x * frame_time;
         self.body.y += (self.speed.y + 0.1) * frame_time;
