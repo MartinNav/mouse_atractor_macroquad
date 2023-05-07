@@ -1,12 +1,11 @@
 mod physical_body;
 use macroquad::prelude::*;
 use rayon::iter::{IntoParallelRefMutIterator, ParallelIterator};
-
 #[macroquad::main("Mouse Atractor")]
 async fn main() {
     //To change number of rectangles/particles change this value
     const RECT_COUNT: usize = 256;
-
+    let mut frame_counter:u16 = 0;
     let mut phys_bod: std::vec::Vec<physical_body::PhysicalBody> =
         std::vec::Vec::with_capacity(RECT_COUNT);
 
@@ -28,6 +27,13 @@ async fn main() {
     loop {
         clear_background(BLACK);
         let mouse_location = mouse_position();
+        if frame_counter%4096==0{
+            phys_bod.iter_mut()
+                .filter(|r|{
+                    !((r.body.x< -50.0||r.body.y< -50.0)||(r.body.x>mouse_location.0||r.body.y>mouse_location.1))
+
+                }).for_each(drop);
+        }
 
         if is_mouse_button_down(MouseButton::Left) {
             phys_bod
@@ -68,6 +74,7 @@ async fn main() {
                 );
             })
             .for_each(drop);
+        frame_counter += 1;
         next_frame().await
     }
 }

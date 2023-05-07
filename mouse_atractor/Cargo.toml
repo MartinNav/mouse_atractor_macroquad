@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 macroquad = "0.3.25"
 rayon = "1.7.0"
+[profile.dev]
+overflow-checks = false
