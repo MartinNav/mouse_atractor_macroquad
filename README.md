@@ -12,6 +12,11 @@ With <strong>right mouse button</strong> you can spawn more new rectangles.
 <h2> ⚠Don't forget⚠</h2>
 Don't forget to compile with <code>cargo run --release</code> or <code>cargo build --release</code>, because debug build does have terrible performance, well it had terrible performance but now it is not that bad, after couple of optimilisations, but still the performance can be improved.
 </p>
+
+<p align="center">
+ <img src="https://skillicons.dev/icons?i=rust,wasm" />
+</p>
+
 <p align="center">
  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" />
 </p>
